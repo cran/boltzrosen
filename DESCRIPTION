@@ -1,0 +1,71 @@
+Package: boltzrosen
+Type: Package
+Title: Boltzmann-Rosenbrock Distribution and Associated Copula
+Version: 0.1.0
+Authors@R: c(
+    person(
+      given = "Rogelio", family = "Salinas Gutiérrez",
+      role = c("aut", "cre", "cph"),
+      email = "rogelio.salinas@edu.uaa.mx",
+      comment = c(ORCID = "0000-0002-1669-4460")
+    ),
+    person(
+      given = "Jhon Daniel", family = "Aguilar Payares",
+      role = c("aut", "cph"),
+      email = "al604586@edu.uaa.mx",
+      comment = c(ORCID = "0009-0009-6509-4486")
+    ),
+    person(
+      given = "Alejandro Fausto", family = "Cortés Salinas",
+      role = c("aut", "cph"),
+      email = "al496840@edu.uaa.mx",
+      comment = c(ORCID = "0009-0000-2536-2663")
+    ),
+    person(
+      given = "Sofía Isabel", family = "Soledad Limón",
+      role = c("aut", "cph"),
+      email = "al339987@edu.uaa.mx",
+      comment = c(ORCID = "0009-0003-5743-5689")
+    ),
+    person(
+      given = "Rogelio Emiliano", family = "Salinas Gutiérrez",
+      role = c("aut", "cph"),
+      email = "al300839@edu.uaa.mx",
+      comment = c(ORCID = "0009-0008-4581-5656")
+    ),
+    person(
+      given = "Juan Pablo", family = "Salinas Muñoz",
+      role = c("aut", "cph"),
+      email = "al340350@edu.uaa.mx",
+      comment = c(ORCID = "0009-0005-4544-1584")
+    ),
+    person(
+      given = "Pedro Abraham", family = "Montoya Calzada",
+      role = c("aut", "cph"),
+      email = "pedro.montoya@edu.uaa.mx",
+      comment = c(ORCID = "0009-0002-3497-210X")
+    )
+  )
+Description: Provides the probability density function, cumulative distribution function, quantile function, and random sample generation for the Boltzmann-Rosenbrock distribution. The package also includes functions for the marginal distributions of X and Y, the mutual information between the two components, and the copula associated with the distribution, including its density, distribution function, and sampling routines. The use of Boltzmann distribution in objective functions, such as the Rosenbrock function, is described in Segovia-Domínguez, I., Valdez, S.I. and Hernández-Aguirre, A. (2014) <doi:10.5220/0005079902510258>. 
+License: GPL-3
+Encoding: UTF-8
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
+Packaged: 2026-10-15 14:48:35 UTC; rogel
+Author: Rogelio Salinas Gutiérrez [aut, cre, cph] (ORCID:
+    <https://orcid.org/0000-0002-1669-4460>),
+  Jhon Daniel Aguilar Payares [aut, cph] (ORCID:
+    <https://orcid.org/0009-0009-6509-4486>),
+  Alejandro Fausto Cortés Salinas [aut, cph] (ORCID:
+    <https://orcid.org/0009-0000-2536-2663>),
+  Sofía Isabel Soledad Limón [aut, cph] (ORCID:
+    <https://orcid.org/0009-0003-5743-5689>),
+  Rogelio Emiliano Salinas Gutiérrez [aut, cph] (ORCID:
+    <https://orcid.org/0009-0008-4581-5656>),
+  Juan Pablo Salinas Muñoz [aut, cph] (ORCID:
+    <https://orcid.org/0009-0005-4544-1584>),
+  Pedro Abraham Montoya Calzada [aut, cph] (ORCID:
+    <https://orcid.org/0009-0002-3497-210X>)
+Maintainer: Rogelio Salinas Gutiérrez <rogelio.salinas@edu.uaa.mx>
+Repository: CRAN
+Date/Publication: 2026-10-24 16:10:14 UTC
